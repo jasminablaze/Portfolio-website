@@ -92,10 +92,11 @@ text-align: center;
 flex-direction: column;
 }
 
-.profile {
+.profile h1 {
 max-width: 700px;
 margin: 0 auto;
 text-align: center;
+font-family: 'Courier New', monospace;
 }
 
 
