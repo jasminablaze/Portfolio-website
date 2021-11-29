@@ -254,3 +254,10 @@ to {
 .cloud-back {
 animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+#contact {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px ;
+  margin-bottom: 20px;
+
+}
