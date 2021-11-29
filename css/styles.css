@@ -261,3 +261,9 @@ animation: 34s cloud-move-reverse infinite alternate linear;
   margin-bottom: 20px;
 
 }
+
+.contact__items {
+
+  margin: 30px 30px;
+  line-height: 1.6;
+}
