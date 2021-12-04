@@ -105,15 +105,21 @@ border-radius: 50%;
     
    }
 }
-.page-footer {
+/* .page-footer {
   position: sticky;
   top: 100%;
 clear: both;
 margin: 0 auto;
 text-align: center;
 flex-direction: column;
+} */
+.page-footer {
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  padding: 8px;
 }
-
 .profile  {
 max-width: 700px;
 margin: 0 auto;
