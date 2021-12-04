@@ -132,6 +132,18 @@ font-family: var(--font-family);
   text-align: center;
   flex-direction: column;
 }
+
+@media all and (min-width:0px) and (max-width:749px)
+{
+  .page-footer{
+    position: sticky;
+    top: 100%;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+  }
+}
 span {
   font-weight:100;
   color:rgb(80, 3, 3);
