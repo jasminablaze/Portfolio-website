@@ -129,7 +129,15 @@ font-family: var(--font-family);
   padding: 8px;
 }
 
-
+.footer-sticky {
+  
+    position: sticky;
+    top: 100%;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  flex-direction: column;
+}
 span {
   font-weight:100;
   color:rgb(80, 3, 3);
