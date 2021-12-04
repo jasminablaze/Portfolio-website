@@ -119,13 +119,7 @@ border-radius: 50%;
    }
 }
 
-.page-footer {
-  position:fixed;
-  bottom:0px;
-  left:0px;
-  width:100%;
-  padding: 8px;
-}
+
 .profile  {
 max-width: 700px;
 margin: 0 auto;
@@ -153,6 +147,21 @@ font-family: var(--font-family);
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media all and (min-width:0px) and (max-width:749px)
+{
+  .page-footer{
+    position: sticky;
+    top: 100%;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  }
 }
 span {
   font-weight:100;
@@ -430,10 +439,4 @@ to {
   
 
 }
-
-
-
-
-
-
 
