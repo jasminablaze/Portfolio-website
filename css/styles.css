@@ -116,11 +116,12 @@ font-family: var(--font-family);
 
 
 .page-footer {
-  position:fixed;
+  position: fixed;
   bottom:0px;
   left:0px;
   width:100%;
   padding: 8px;
+  margin-top: auto;
 }
 
 .footer-sticky {
@@ -128,22 +129,11 @@ font-family: var(--font-family);
     position: sticky;
     top: 100%;
   clear: both;
-  margin: 0 auto;
+  margin-top: auto;
   text-align: center;
-  flex-direction: column;
+  
 }
 
-@media all and (min-width:0px) and (max-width:749px)
-{
-  .page-footer{
-    position: sticky;
-    top: 100%;
-  clear: both;
-  margin: 0 auto;
-  text-align: center;
-  flex-direction: column;
-  }
-}
 span {
   font-weight:100;
   color:rgb(80, 3, 3);
